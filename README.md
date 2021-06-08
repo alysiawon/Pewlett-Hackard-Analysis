@@ -9,7 +9,7 @@ The purpose of this project is to assist Pewlett Hackard create a employee datab
 
 ## Results
 
-The data preparation utilizes SQL by applying data modelling, data engineering and data analysis skills to generate reports. Insight are generated on the <a href="../Queries/Employee_Database_challenge.sql">Employee Database</a>. 
+The data preparation utilizes SQL by applying data modelling, data engineering and data analysis skills to generate reports. Insight are generated on the <a href="Queries/Employee_Database_challenge.sql">Employee Database</a>. 
 
 ### The Number of Retiring Employees by Title
 
@@ -23,25 +23,25 @@ This analysis will generate 3 different reports:
 
 The Retirement Titles table will showcase the number of retirement-age employees. The table is filtered to show all the current employees who were born between January 1, 1952 and December 31, 1955. 
 
-Insight are generated on the <a href="../Data/retirement_titles.csv">Retirement Titles CSV File</a>.
+Insight are generated on the <a href="Data/retirement_titles.csv">Retirement Titles CSV File</a>.
 
 **Unique Titles**
 
 The Unique Titles table will create a table that contains the most recent title of each employee. In the Retirement Titles table, an employee can have multiple titles in the database, as a result, this table will help filter to only showcase the most recent title. 
 
-Insight are generated on the <a href="../Data/unique_titles.csv">Unique Titles CSV File</a>.
+Insight are generated on the <a href="Data/unique_titles.csv">Unique Titles CSV File</a>.
 
 **Retiring Titles Table**
 
 The Retiring Titles table will create a final table that has the number of retirement-age employees by most recent job title.
 
-Insight are generated on the <a href="../Data/retiring_titles.csv">Unique Titles CSV File</a>.
+Insight are generated on the <a href="Data/retiring_titles.csv">Unique Titles CSV File</a>.
 
 ### The Employees Eligible for the Mentorship Program
 
 This analysis will create a mentorship-eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965.
 
-Insight are generated on the <a href="../Data/mentorship_eligibility.csv">Mentorship Eligibility CSV File</a>.
+Insight are generated on the <a href="Data/mentorship_eligibility.csv">Mentorship Eligibility CSV File</a>.
 
 ### Key Results ###
 
