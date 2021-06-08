@@ -49,7 +49,7 @@ The key results from the two analysis conducted are:
 
 1. In the Retirement Titles table, there are many duplicate employees as employees may have had various roles during their career. In the first 10 rows there are only 6 unique employees instead of 10. 
 
-<img src="Analysis/retirement_titles.png" width="250">
+<img src="Analysis/retirement_titles.png" width="700">
 
 2. In the Retirement Titles table, the most popular titles are Engineers, followed by Staff, followed by Senior Engineer.
 
