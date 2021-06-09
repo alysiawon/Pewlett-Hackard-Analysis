@@ -41,7 +41,7 @@ Insight are generated on the <a href="Data/retiring_titles.csv">Retiring Titles 
 
 This analysis will create a mentorship-eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965.
 
-Insight are generated on the <a href="Data/mentorship_eligibility.csv">Mentorship Eligibility CSV File</a>.
+Insight are generated on the <a href="Data/mentorship_eligibilty.csv">Mentorship Eligibility CSV File</a>.
 
 ### Key Results ###
 
