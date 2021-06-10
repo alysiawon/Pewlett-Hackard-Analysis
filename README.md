@@ -43,7 +43,7 @@ The key results from the two analysis conducted are:
 
     <img src="Analysis/retirement_titles.png" width="700">
 
-2. In the Retirement Titles table, the most popular titles are Engineers, followed by Staff, followed by Senior Engineer.
+2. Wihtout filtering and sorting the data, in the Retirement Titles table, the most popular titles are Engineers, followed by Staff, followed by Senior Engineer. This showcases that the company relies heavily on engineers and staffs for their business. 
 
     <img src="Analysis/retirement_titles_count.png" width="250">
 
@@ -59,8 +59,10 @@ The key results from the two analysis conducted are:
 
 **1. How many roles will need to be filled as the "silver tsunami" begins to make an impact?**
 
-After completing the analysis, there are 90,398 employeees that will need to be filled. 
+After completing the analysis, there are 90,398 employeees that will need to be filled. The most senior roles will need to be filled, for example, the Senior Engineer and Senior Staff roles. 
 
 **2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?**
 
-The analysis showcases that only 1,549 employees are eligible for mentorship. If Pewlett Hackard is planning on filling all the roles that will be impacted by retirement and under the assumption that one mentor can only provide mentorship to one employee, then only ~1.5% of the new employees will have a mentor. Pewlett Hackard currently does not have enough qualified employees to be mentors. 
+The analysis showcases that only 1,549 employees are eligible for mentorship. Under the assumption that Pewlett Hackard is planning on filling all the roles that will be impacted by retirement and that one mentor can only provide mentorship to one employee, then only ~1.5% of the new employees will have a mentor. Pewlett Hackard currently does not have enough qualified employees to be mentors.
+
+Overall, in the upcoming future, it is recommended that Pewlett Hackard focuses on promoting and training their current employees, while hiring senior staff members to fill the upcoming gaps. 
