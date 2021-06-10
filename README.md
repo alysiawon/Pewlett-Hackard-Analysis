@@ -33,7 +33,7 @@ The Retiring Titles table will finalize the total number of retirement-aged empl
 
 ### The Employees Eligible for the Mentorship Program
 
-This analysis will create a mentorship-eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965. Insight are generated on the <a href="Data/mentorship_eligibilty.csv">Mentorship Eligibility CSV File</a>.
+This analysis will create a Mentorship-Eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965. Insight are generated on the <a href="Data/mentorship_eligibilty.csv">Mentorship Eligibility CSV File</a>.
 
 ### Key Results ###
 
@@ -41,19 +41,19 @@ The key results from the two analysis conducted are:
 
 1. In the Retirement Titles table, there are many duplicate employees as employees may have had various roles during their career. In the first 10 rows there are only 6 unique employees instead of 10. This showcases that additional filtering and sorting is required. 
 
-<img src="Analysis/retirement_titles.png" width="700">
+    <img src="Analysis/retirement_titles.png" width="700">
 
 2. In the Retirement Titles table, the most popular titles are Engineers, followed by Staff, followed by Senior Engineer.
 
-<img src="Analysis/retirement_titles_count.png" width="250">
+    <img src="Analysis/retirement_titles_count.png" width="250">
 
 3. After removing the duplicate titles and filtering to only showcase the most recent roles, the most popular titles are Senior Staff, followed by Senior Engineer, followed by Engineer. This showcases that most of the employees who are retiring soon are more senior employees. 
 
-<img src="Analysis/retiring_titles.png" width="250">
+    <img src="Analysis/retiring_titles.png" width="250">
 
 4. Out of the thousands of employees, only 1,549 employees fit the criteria to be a mentor. The most popular job titles are Engineer, followed by Senior Staff then Staff.
 
-<img src="Analysis/mentorship_eligibilty.png" width="250">
+    <img src="Analysis/mentorship_eligibilty.png" width="250">
 
 ## Summary
 
