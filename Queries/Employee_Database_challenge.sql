@@ -19,7 +19,6 @@ ORDER BY e.emp_no;
 
 SELECT * FROM retirement_titles
 
--- Unique Retirement Titles
 -- Count Retirement Titles
 SELECT COUNT(rt.title),
 rt.title
