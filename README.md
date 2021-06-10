@@ -11,7 +11,7 @@ The purpose of this project is to assist Pewlett Hackard create an employee data
 
 The data preparation utilizes SQL by applying data modelling, data engineering and data analysis to generate reports. Insight are generated on the <a href="Queries/Employee_Database_challenge.sql">Employee Database</a>. 
 
-### The Number of Retiring Employees by Title
+### Analysis 1: The Number of Retiring Employees by Title
 
 This analysis will showcase the employees who will be retiring by generating 3 different reports:
 
@@ -31,7 +31,7 @@ The Unique Titles table will create a table that contains the most recent title 
 
 The Retiring Titles table will finalize the total number of retirement-aged employees by their most recent job title. Insight are generated on the <a href="Data/retiring_titles.csv">Retiring Titles CSV File</a>.
 
-### The Employees Eligible for the Mentorship Program
+### Analysis 2: The Employees Eligible for the Mentorship Program
 
 This analysis will create a Mentorship-Eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965. Insight are generated on the <a href="Data/mentorship_eligibilty.csv">Mentorship Eligibility CSV File</a>.
 
