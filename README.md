@@ -29,7 +29,7 @@ The Unique Titles table will create a table that contains the most recent title 
 
 **Retiring Titles Table**
 
-The Retiring Titles table will create a final table that has summarizes the number of retirement-aged employees by their most recent job title. Insight are generated on the <a href="Data/retiring_titles.csv">Retiring Titles CSV File</a>.
+The Retiring Titles table will create a final table that will total the number of retirement-aged employees by their most recent job title. Insight are generated on the <a href="Data/retiring_titles.csv">Retiring Titles CSV File</a>.
 
 ### The Employees Eligible for the Mentorship Program
 
