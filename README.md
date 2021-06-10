@@ -59,7 +59,7 @@ The key results from the two analysis conducted are:
 
 <img src="Analysis/retiring_titles.png" width="250">
 
-4. Out of the thousands of employees, only 1,449 employees fit the criteria to be a mentor. The most popular job titles are Senior Staff, Senior Engineer and Engineer.
+4. Out of the thousands of employees, only 1,549 employees fit the criteria to be a mentor. The most popular job titles are Engineer, followed by Senior Staff then Staff.
 
 <img src="Analysis/mentorship_eligibilty.png" width="250">
 
@@ -71,4 +71,4 @@ After completing the analysis, there are 90,398 employeees that will need to be 
 
 **2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?**
 
-The analysis showcases that only 1,449 employees are eligible for mentorship. If Pewlett Hackard is planning on filling all the roles that will be impacted by retirement and under the assumption that one mentor can only provide mentorship to one employee, then only 1.6% of the new employees will have a mentor. Pewlett Hackard currently does not have enough qualified employees to be mentors. 
+The analysis showcases that only 1,549 employees are eligible for mentorship. If Pewlett Hackard is planning on filling all the roles that will be impacted by retirement and under the assumption that one mentor can only provide mentorship to one employee, then only ~1.5% of the new employees will have a mentor. Pewlett Hackard currently does not have enough qualified employees to be mentors. 
