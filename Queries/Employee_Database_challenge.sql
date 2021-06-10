@@ -1,6 +1,6 @@
 -- Deliverable 1: The Number of Retiring Employees by Title
 
--- Retirement Titles
+-- Retirement Titles Tables
 SELECT * FROM employees
 SELECT * FROM titles
 
@@ -20,20 +20,26 @@ ORDER BY e.emp_no;
 SELECT * FROM retirement_titles
 
 -- Unique Retirement Titles
+-- Count Retirement Titles
+SELECT COUNT(rt.title),
+rt.title
+FROM retirement_titles as rt
+GROUP BY rt.title
+ORDER BY rt.count DESC;
 
+-- Unique Titles Table
 -- Use Dictinct with Orderby to remove duplicate rows
 SELECT DISTINCT ON (rt.emp_no) rt.emp_no,
 rt.first_name,
 rt.last_name,
 rt.title
-
 INTO unique_titles
 FROM retirement_titles as rt
 ORDER BY rt.emp_no, rt.to_date DESC;
 
 SELECT * FROM unique_titles
 
--- Retiring Titles
+-- Retiring Titles Table
 SELECT COUNT(ut.title),
 ut.title
 INTO retiring_titles
@@ -45,7 +51,7 @@ SELECT * FROM retiring_titles
 
 -- Deliverable 2: The Employees Eligible for the Mentorship Program
 
--- Mentorship Eligibility
+-- Mentorship Eligibility Table
 SELECT * FROM employees
 SELECT * FROM dept_emp
 SELECT * FROM titles
@@ -63,8 +69,15 @@ INNER JOIN dept_emp as de
 ON (e.emp_no = de.emp_no)
 INNER JOIN titles as ti
 ON (e.emp_no = ti.emp_no)
-WHERE ti.to_date = ('9999-01-01')
+WHERE de.to_date = ('9999-01-01')
 AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY e.emp_no;
 
 SELECT * FROM mentorship_eligibilty
+
+-- Count Mentorship Eligibility
+SELECT COUNT(me.title),
+me.title
+FROM mentorship_eligibilty as me
+GROUP BY me.title
+ORDER BY me.count DESC;
